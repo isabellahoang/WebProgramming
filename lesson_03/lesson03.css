@@ -1,0 +1,38 @@
+<!-- Inline style -->
+
+<h1 style="color: blue;
+ text-align: right;
+ font-size: 64px;>
+ font-style: italic;
+ text-transform: uppercase/lowercase;
+ font-weight: 200 ( means how thick the font is lol);
+ ">Hi All
+ </h1>
+
+ <!-- Inline style -->
+
+h1 ｛ 
+ color: blue;
+ text-align: right;
+ font-size: 64px;>
+ font-style: italic;
+ text-transform: uppercase/lowercase;
+ font-weight: 200 ( means how thick the font is lol);
+ ">Hi All
+</h1>
+
+
+<div style="
+        width: 800px;
+        height: 600px;
+        background-image: url(https://th.bing.com/th/id/R.a1ca9a43af9a273394c9c4ad44d2bc48?rik=BxY%2bT3H6V1Hm%2bw&riu=http%3a%2f%2fwww.dielp.com%2fimages%2fservices%2fnuclear-medicine02.jpg&ehk=G9ynXCg2QpWaOn2NhcyhaUufVm3Ch3xVtLByTKL5EiI%3d&risl=&pid=ImgRaw&r=0);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: aquamarine;
+        border-radius: 20px;
+        border: 3px solid blue; (px=thickness; solid/dotted=kind of frame/border)
+        ">
+</div>
+
+hinh tron
+ add: border-radius: 15px;

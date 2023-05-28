@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h3>Calculator</h3>
+        <div class="io">
+            <p id="io"></p>
+            <p id="result"></p>
+        </div>
+        <div class="keyboard">
+            <div class="row1">
+                <button onclick
+                ="clickButton(7)">7</button>
+                <button onclick="clickButton
+                (8)">8</button>
+                <button onclick="clickButton(9)">9</button>
+                <button onclick="del()">DEL</button>
+            </div>
+            <div class="row2">
+                <button onclick="clickButton(4)">4</button>
+                <button onclick="clickButton(5)">5</button>
+                <button onclick="clickButton(6)">6</button>
+                <button onclick="clickButton('+')">+</button>
+            </div>
+            <div class="row3">
+                <button onclick="clickButton(1)">1</button>
+                <button onclick="clickButton(2)">2</button>
+                <button onclick="clickButton(3)">3</button>
+                <button onclick="clickButton('-')">-</button>
+            </div>
+            <div class="row4">
+                <button onclick="clickButton('.')">.</button>
+                <button onclick="clickButton(0)">0</button>
+                <button onclick="clickButton('/')">/</button>
+                <button onclick="clickButton('*')">x</button>
+            </div>
+            <div class="row5">
+                <button onclick="clickButton('=')">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

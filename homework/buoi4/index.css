@@ -1,0 +1,16 @@
+.choosee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.choosee .hex1 {
+    margin-top: 10px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+

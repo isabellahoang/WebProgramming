@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Menu -->
+        <div class="top-menu">
+            <img src="./images/logo.png" alt="logo">
+
+            <div class="page">
+                <a href="index.html">SẢN PHẨM</a>
+                <a href="#">SALE</a>
+                <a href="#">THƯ VIỆN</a>
+                <a href="#">GIỚI THIỆU</a>
+            </div>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="login.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a>
+                <div class="lines"></div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+            <!-- Selector -->
+            <div class="selectors">
+                <a href="#" class="highlight">Deck</a>
+                <a href="#">Accessories</a>
+                <a href="#">Clothing</a>
+                <a href="#">S/S 2022</a>
+                <a href="#">S/S 2021</a>
+                <a href="#">S/S 2020</a>
+                <a href="#">S/S 2019</a>
+                <a href="#">All</a>
+            </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+            <p id="usernameError"></p>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="Enter password">
+            <p id="passwordError"></p>
+        </div>
+        <div class="member">
+            Not a member? <a href="register.html">
+                Register here
+            </a>
+        </div>
+        <button onclick ="onSubmit()">Submit</button>
+    <script src="registerAndLogin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+// These three things will always be required in your code:
+const url = 'https://rapidapi.com/dickyagustin/api/text-translator2'
+'X-RapidAPI-Key': ''
+'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
+
+// these two parameters will be needed for a functio (strings):
+source_language, target_language
+---> filled with supported language codes such as: en, eu, id, and many others.
+
+// displaying translated text:
+displayCountryName(data.translatedText);

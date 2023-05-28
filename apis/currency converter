@@ -1,0 +1,14 @@
+Mô tả chức năng của API:
+- link: https://community-neutrino-currency-conversion.p.rapidapi.com/convert
+- Pricing: Basic - $0.00 / month
+- 1 endpoint: 
+POST Convert currency X into currency Y
+required parameter: value, from-type (currency that should be converted), to-type (currency that should be converted into)
+code: const url = 'https://community-neutrino-currency-conversion.p.rapidapi.com/convert';
+const options = {
+	method: 'POST',
+	headers: {
+		'content-type': 'application/x-www-form-urlencoded',
+		'X-RapidAPI-Key': '53db84c469mshd800dfd2824be8fp1a8227jsned5728605e55',
+		'X-RapidAPI-Host': 'community-neutrino-currency-conversion.p.rapidapi.com'
+	},

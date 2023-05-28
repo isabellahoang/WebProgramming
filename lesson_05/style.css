@@ -1,0 +1,14 @@
+body { 
+    display: flex;
+    justify-content: center;
+}
+
+.container { 
+    width: 900px;
+    height: 600px;
+    background: orange;
+}
+
+{}
+
+

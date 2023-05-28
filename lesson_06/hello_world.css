@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+    font-family: "Arial", sans-serif; 
+}
+
+.header {
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 0px;
+    
+}
+
+.right {
+    display: block; 
+    gap: 25px;
+    font-family: "Roboto", sans-serif;
+    padding: 15px 5px;
+    font-size: 20px;
+}
+
+.left {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 20px;
+    padding: 15px 5px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.about {
+    background-color: white;
+    background-image: linear-gradient(
+        180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+    );
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.sub-title {
+    font-family: "Helvetica", sans-serif
+    color: #000;
+}
+
+.login {
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background: #0080ff;#
+    border: 1px royalblue solid;
+    color: white; 
+}
+
+.signup {
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background: transparent;
+    border: 1px #0080ff solid;
+    color: white;
+
+}
+
+.projects-title {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 640px;
+    font-weight: 700;
+    margin: 0 auto 6rem auto;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    display: block;
+}
+
+.project-section {
+    padding:40px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.project-item {
+   width: 400px;
+}
+
+.project-item > p {
+background-color: black;
+padding: 20px 4px;
+border-radius: 0 0 12px 12px;
+text-align: center;
+cursor: pointer;
+}
+
