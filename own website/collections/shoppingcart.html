@@ -75,67 +75,17 @@
        </div>
     </header>
 
-    <div class="small-container cart-page">
-
-        <table>
-            <tr>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Subtotal</th>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="https://i.pinimg.com/750x/5c/fa/82/5cfa82ddceabcaa477431c67ac6064cc.jpg">
-                        <div>
-                            <p>Vintage Adidas Sweater</p>
-                            <small>Price: $49.99</small>
-                            <br>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>$49.99</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="https://i.pinimg.com/474x/b6/d7/95/b6d7950be8b0bb2fcc9833bbbe25d740.jpg">
-                        <div>
-                            <p>Diesel Zip Up Sweater Gray</p>
-                            <small>Price: $69.99</small>
-                            <br>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>$69.99</td>
-            </tr>
-        </table>
-
-        <div class="total-price">
-
-            <table>
-                <tr>
-                    <td>Subtotal</td>
-                    <td>$119.98</td>
-                </tr>
-                <tr>
-                    <td>Tax</td>
-                    <td>$25.00</td>
-                </tr>
-                <tr>
-                    <td>Total</td>
-                    <td>$144.98</td>
-                </tr>
-            </table>
-
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div id="cartItem">Your Cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
         </div>
-
     </div>
-
     <section class="footer">
 
         <div class="box-container">

@@ -1,4 +1,4 @@
-let carts = JSON.parse(localStorage.getItem("carts")) || [];
+const carts = JSON.parse(localStorage.getItem("carts")) || [];
 
 console.log(carts);
 
@@ -35,34 +35,34 @@ for (let i = 0; i < carts.length; i++) {
         
     }
 
-    let carts = {
+    let cartss = {
         data: [
             {
                 name: "Ralph Lauren Cableknit V-Neck Sweater",
-                price: "79.99$",
+                price: 79.99,
                 image: "https://i.pinimg.com/474x/62/ef/0b/62ef0bffdf9530f43b5691f76b2569c4.jpg"
             },
     
             {
                 name: "Wide Leg Denim",
-                price: "39.99$",
+                price: 39.99,
                 image: "https://i.pinimg.com/474x/30/a1/d7/30a1d7bc39c3916623a80d0d01b86acd.jpg"
             },
     
             {
-                name: "Raf Simons "I Love You" Raglan Sleeves Sweater In Beige",
-                price: "780.000đ - 1.470.000đ",
-                image: "images/Musty-Deck.jpg"
+                name: "Raf Simons 'I Love You' Raglan Sleeves Sweater In Beige",
+                price: 59.99,
+                image: "https://i.pinimg.com/564x/89/44/7a/89447ad5f76f505f1f2e2d034458b887.jpg"
             },
     
             {
-                name: "TRISTIQUE DECK",
-                price: "780.000đ - 1.470.000đ",
-                image: "images/Tristique-deck.jpg"
+                name: "Vintage Converse Cropped Tee",
+                price: 20.99,
+                image: "https://i.pinimg.com/474x/bf/b1/ab/bfb1ab43bbcd015096654f4f6e66ded3.jpg"
             },
     
             {
-                name: "FIELD TRIP DECK",
+                name: "Diesel Zip Up Sweater Gray",
                 price: "780.000đ - 1.470.000đ",
                 image: "images/Fied-Trip-deck.jpg"
             },

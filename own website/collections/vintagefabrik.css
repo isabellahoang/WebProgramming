@@ -390,46 +390,10 @@ header .fa-bars {
     margin: 80px auto;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-}
-
 .cart-info {
     display: flex;
     flex-wrap: wrap;
     font-size: 13px;
-}
-
-th {
-    text-align: left;
-    padding: 5px;
-    color:#fff ;
-    background:rgb(126, 147, 147) ;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-td {
-    padding: 10px 5px;
-}
-
-td input {
-    width: 40px;
-    height: 30px;
-    padding: 5px;    
-}
-
-td a {
-    color:rgb(126, 147, 147);
-    font-size: 12px;
-}
-
-td img {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
 }
 
 .total-price {
@@ -441,14 +405,6 @@ td img {
     border-top: 3px solid rgb(126, 147, 147);
     width: 100%;
     max-width: 400px;
-}
-
-td:last-child {
-    text-align: right;
-}
-
-th:last-child {
-    text-align: right;
 }
 
 .wishlist-items .box {

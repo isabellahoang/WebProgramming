@@ -45,3 +45,10 @@ function ValidatePassword(password) {
     let password1 = /^(?=.*\d)(?=.*[A-Z])(?=.*\W)(?!.*\s).{8,}$/;
     return password1.test(password)
 }
+
+#####
+
+const registerButton = document.getElementById("registerButton");
+
+let data = [];
+// localStorage.clear();
